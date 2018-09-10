@@ -1,7 +1,7 @@
 # gdt-calc
 Game review score calculator for Game Dev Tycoon.
 
-## [Want to open the calculator? Click here.](http://rollersteaam.github.io/gdt-calc/)
+# [Want to open the calculator? Click here.](http://rollersteaam.github.io/gdt-calc/)
 
 ## Summary
 This tool is designed to help you get high scores for every game you make. The way the game works is this - every game you make is compared with the last best game you've made so far. If your game score is higher than the previous then you will get a high review score. Therefore the best way to play this game is to make small increases in game score every time. If you find your current game score is higher than neccessary, it is a good idea to leave some bugs in so that beating this score won't be as hard.
