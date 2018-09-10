@@ -1,0 +1,196 @@
+#GameDevCalculator {
+	width: 809px;
+	margin: 0px auto;
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+/* Tables */
+
+#GameDevCalculator table {
+	background-color: #D1DBBD; /*D1DBBD*/
+}
+
+#GameDevCalculator table, 
+#GameDevCalculator tr, 
+#GameDevCalculator td {	
+	border: 0;
+	border-spacing: 0;
+}
+
+#GameDevCalculator td {
+	padding: 2px 5px;
+}
+
+#GameDevCalculator select,
+#GameDevCalculator input {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#calcFieldset {
+	width: 700px;
+	margin: 0 auto 5px auto;
+	background-color: #D1DBBD; /*D1DBBD*/
+}
+
+#calcFieldset h2 {
+	font-size:24px;
+	margin: 0 3px;
+}
+
+#checkboxDiv {
+	margin: 3px 0 13px 0;
+	float: left;
+}
+
+#checkboxDiv input {
+	margin-right: 8px;
+}
+
+/* select box div */
+
+#selectboxDiv {
+	float: right;
+	margin: 5px 3px 20px;
+}
+
+#inputboxDiv {
+	float: right;
+	margin: 0px 3px 5px 0;
+}
+
+#infoDiv {
+	float: left;
+	margin: 0px 3px 5px 0;
+}
+
+#infoTable td {
+	margin: 0px 3px 5px 0;
+}
+
+/* buttons div */
+#buttonsDiv {
+	float: right;
+}
+
+#nextGameButton {
+	width: 100px;
+	height: 80px;
+	margin: 0px 5px 0 50px;
+}
+
+#clearLastButton,
+#clearAllButton {
+	width: 80px;
+	height: 30px;
+	margin: 0px 5px;
+}
+
+#loadGamesButton,
+#saveGamesButton {
+	height: 30px;
+}
+
+/* notes Div css */
+
+#notesDiv {
+	background-color: rgb(145, 170, 157);
+	border: 1px solid black;
+	margin: 5px 3px;
+	width: 330px;
+	height: 160px;
+	float: left;
+	overflow: hidden;
+}
+
+#notesDiv p {
+	margin: 2px;
+}
+
+/* sliders css */
+
+#sliderDiv {
+	width:280px;
+	height: 100px;
+	float: right;	
+	margin: 0px 6px 10px;
+	overflow: hidden;
+}
+
+.sliderTrack {
+	width: 16px;
+	height: 20px;
+}
+
+.emptySliderTrack { background: #D7EDFF; }
+.redSliderTrack { background: #FF7575; }
+.greenSliderTrack { background: #80FF80; }
+.blueSliderTrack { background: #8080FF; }
+
+.sliderTab {
+	border: 1px solid #6A6AFF;
+	background: white;
+	width: 20px;
+	height: 14px;
+}
+	
+/* old games table css */
+
+#oldGamesDiv {
+	height: 300px;
+	overflow-y: scroll;
+	/*9298BC*/
+	background: #FF8400;
+}
+
+#oldGamesTableHeader {
+	text-align: center;
+	padding: 0;
+	border-width: 0;
+	border-spacing: 0;
+}
+
+#oldGamesTable {
+	text-align: center;
+	padding: 0;
+	border-width: 0;
+	border-spacing: 0;
+}	
+
+#oldGamesTableHeader td, 
+#oldGamesTableHeader tr {
+	background: #FF8400;
+	padding: 0;
+	border-width: 0;
+}
+
+#oldGamesTable td, #oldGamesTable tr {
+	padding: 0;
+	border-width: 0;
+}
+
+#oldGamesTable td {
+	border-right: 1px solid black;
+}
+
+#oldGamesTableHeader td {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#oldGamesTable td:last-child {
+	border-right: 0;
+}
+
+#oldGamesTable tr:nth-child(odd) {
+	background: #FC3; /*484F79*/
+}
+
+#oldGamesTable tr:nth-child(even) {
+	background: #FF3; /*9298BC*/
+}
+
+#oldGamesTable tr:last-child td {
+	border-bottom: 1px solid black;
+}
